@@ -2,7 +2,7 @@
 .ipynb_checkpoints
 
 # Testing data
-data/
+data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
