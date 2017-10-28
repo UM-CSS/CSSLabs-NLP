@@ -15,4 +15,4 @@ This lab uses the OKCupid data set available at [https://github.com/rudeboybert/
 
 
 ## Optional
-* These notebooks were created with the [Collapsible Headings](http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html) Jupyter Notebooks extension. This makes some of the instructions look better, but the botebooks work fine without it. Installation instructions are available [here](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). 
+* These notebooks were created with the [Collapsible Headings](http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html) Jupyter Notebooks extension. This makes some of the instructions look better, but the notebooks work fine without it. Installation instructions are available [here](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). 
