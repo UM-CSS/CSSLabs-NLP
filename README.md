@@ -1,5 +1,7 @@
 # CSSLabs-NLP
 
+Natural Language Processing labs for computational social science courses. 
+
 ## Requirements
 
 * python3
