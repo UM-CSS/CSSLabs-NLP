@@ -62,6 +62,36 @@ You will need some software to be able to run this code. Advanced users may view
 ### Lab 1: Data munging
 
 ### Lab 2: Word frequencies
+#### Initial Setup
+- This lab uses the `clean_profiles.tsv` file produced by `Lab 1`. You will need to run that code first, or get a copy of the file it creates from someone who has. 
+    - If you get an error that says something like `FileNotFoundError: File b'data/clean_profiles.tsv' does not exist` at the bottom, if means that you need to run the code in Lab 1. If you already ran this code and still get this error, then check for error messages in Lab 1. 
+- If you have run this lab or used `nltk` before, you should comment out the `nltk.download()` line in the imports code.
+- If you are running this code on a personal computer or laptop:
+    - Run the code under the header "For laptop and personal computer users." 
+    - This takes a smaller sample of the data. Otherwise, the data is too big for most personal computers and causes them to crash. 
+
+#### Helper functions
+- This lab, like the others, has code labeled "helper functions." 
+- This code is not explained in the notebook because it is not a central part of the lesson.
+- Students should run these code cells and scroll past them without worrying about how they work. 
+
+#### Stop words
+- This lab changes the standard English set of stop words so that pronouns are not removed from the text. This decision was informed by the work of James Pennebaker and others, which shows that pronoun frequency can be very informative.
+- It turns out that pronoun frequencies aren't very distinctive of different groups within this data set. We would see similar results if we used the default list of stop words and excluded pronouns. 
+- The lab still does not use the default set of stop words in order to show students more about what stop words are and that they should not be used uncritically. 
+
+#### Cleaning text
+- There is a lis of `bad_words` in the text cleaning function. This is a bit of a hack solution to the fact that `beautifulsoup`, although it is a great HTML parsing library, does not quite remove all links from our text. Without this, the words `http` and `www` clutter the results. `\nnan` is removed also, because every empty text box leaves that artifact.
+
+#### Sex/gender 
+- The OKC data has a column `sex` with categories `m` and `f`. There is no column or category to indicate gender identity or intersex identity. 
+- The lab generally refers to these groups as "men" and "women." This is likely how most people interacted with the site when making their profiles. It is also how most students will interpret the sex data. It is not perfect. 
+- If students raise the problems with this data, it is a great opportunity to pose to them research questions: 
+    - Given that OkCupid has constraining options, how might trans, genderqueer, and enby people interact with it?
+    - Do words like `transgender` appear in the profile text? (yes)
+        - What sex do those individuals pick, and how does it relate to what they write in their profiles? (it depends)
+
+
 
 ### Lab 3: Topic Modeling
 
