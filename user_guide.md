@@ -17,7 +17,7 @@ To use these labs, you will need to download the code and the data. These are av
         - Go to where the file is saved and unzip it.
 
 #### Putting the data in its place
-These labs use data from Journal of Statistical Education Paper on Using OkCupid Data for Data Science Courses. We do not want to host or distribute this data, which is why we asked you to get it from the authors' Github page above. Now you need to put this data somewhere our code can find it. Steps:
+These labs use data from Journal of Statistical Education Paper on Using OkCupid Data for Data Science Courses. We do not want to host or distribute this data, which is why we asked you to get it from the authors' GitHub page above. Now you need to put this data somewhere our code can find it. Steps:
 1. Open the JSE_OkCupid folder that you downloaded.
 2. Unzip the file `profiles.csv.zip`.
 3. Copy the unzipped file `profiles.csv`.
@@ -38,7 +38,7 @@ You will need some software to be able to run this code. Advanced users may view
         1. A terminal / command prompt will open. Do not close this: jupyter is running your code here. You can safely ignore it.
         2. A new tab or window should open in your browser with something like this: 
             - ![notebook home](images/notebook_home.png "notebook home") 
-            - If you see this, congradulations: you have successfully installed everything you need. If not, there is something wrong with your installation.
+            - If you see this, congratulations: you have successfully installed everything you need. If not, there is something wrong with your installation.
 4. In the jupyter notebook tab, you should see a list of files and folders on your computer. Navigate through these folders to the `CSSLabs-NLP` folder.
     - **Note** if you do not see this folder, it may be that you saved it somewhere jupyter cannot get to. The easiest solution is co move it to somewhere jupyter can see, such as "my documents." 
 5. In this folder is a list of labs, each ending in `.ipynb`. Click any of these and they should open in a new tab with the lab code and instructions.
@@ -46,7 +46,7 @@ You will need some software to be able to run this code. Advanced users may view
         - ![notebook top](images/notebook_top.png "notebook top"), 
         - Then you have probably made a mistake in downloading the files. Go back to the "clone or download" instructions above. 
 6. If you are new to Jupyter Notebooks, everything you need for these labs is in the great [introduction to their basic use](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb).
-7. **Optional notebook extentions**: The labs were designed to work with the `collapsable headings` extention. They work fine without it, but look a little nicer if you have it installed. Full installation instructions are [at the bottom of this page](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). Here's the short version:
+7. **Optional notebook extensions**: The labs were designed to work with the `collapsible headings` extension. They work fine without it, but look a little nicer if you have it installed. Full installation instructions are [at the bottom of this page](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). Here's the short version:
     1. In `anaconda prompt` or your terminal, run this command: `conda install -c conda-forge jupyter_contrib_nbextensions`
     2. In the same prompt, run `jupyter nbextensions_configurator enable`
     3. In the same prompt, run `jupyter nbextension enable collapsible_headings/main`
@@ -57,12 +57,16 @@ You will need some software to be able to run this code. Advanced users may view
 **Note** Labs 2 and 3 require you to first run the code in Lab 1. You may simply run the code in Lab 1 without looking at it and skip to labs 2 or 3 if you like. (Be sure to check for errors when you run Lab 1: if there is something wrong with your setup, it will show up here. Lab 1 has detailed instructions for common errors.)
 
 ### Short Summaries of each Lab
-- Lab 0 introduces both the python programming language and how computers think about text. It assumes no prior knowledge of programming, and does not require outside data. It is not a comprehensive course in either programming or text processing, but rather a quick, gentile start designed to help new users up and running with the basics.
+- Lab 0 introduces both the python programming language and how computers think about text. It assumes no prior knowledge of programming. It is not a comprehensive course in either programming or text processing, but rather a quick, gentile start designed to help new users up and running with the basics.
 - Lab 1 walks students through cleaning the OKC profile data. Data are often messy when researchers first get them; indeed munging is usually the largest component of any data science project.
 - Lab 2 gets students thinking about text as data. By the end, students compare word frequencies across different social groups to see what aspects of their language use are distinctive.
 - Lab 3 introduces students to topic modeling. They construct topic models, interpret the topics, evaluate their quality, and explore the relative popularity of topics across social groups.
 
 ### Lab 0: Intro to python & text
+- This lab sets out to teach people who have never seen programming before two things:
+    1. Enough python to use and understand the other labs
+    2. Enough about how computers understand text to make sense of the other labs
+- As such, it focuses heavily on developing intuition rather than explaining full technical details or rationals. Further, it leaves out a lot of what normally would be covered in an intro to programming or intro to python course. 
 
 ### Lab 1: Data munging
 
@@ -86,7 +90,7 @@ You will need some software to be able to run this code. Advanced users may view
 - The lab still does not use the default set of stop words in order to show students more about what stop words are and that they should not be used uncritically. 
 
 #### Cleaning text
-- There is a lis of `bad_words` in the text cleaning function. This is a bit of a hack solution to the fact that `beautifulsoup`, although it is a great HTML parsing library, does not quite remove all links from our text. Without this, the words `http` and `www` clutter the results. `\nnan` is removed also, because every empty text box leaves that artifact.
+- There is a list of `bad_words` in the text cleaning function. This is a bit of a hack solution to the fact that `beautifulsoup`, although it is a great HTML parsing library, does not quite remove all links from our text. Without this, the words `http` and `www` clutter the results. `\nnan` is removed also, because every empty text box leaves that artifact.
 
 #### Sex/gender 
 - The OKC data has a column `sex` with categories `m` and `f`. There is no column or category to indicate gender identity or intersex identity. 
