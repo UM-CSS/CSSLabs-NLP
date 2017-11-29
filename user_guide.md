@@ -10,7 +10,7 @@ To use these labs, you will need to download the code and the data. These are av
 - If you are familiar with `git`
     - We recommend you clone each repo.
 - If you are unfamiliar with `git`
-    - The easiest option is to press the Clone or Download button on the right side of each repository.
+    - The easiest option is to press the [Clone or Download](images/clone_or_download.png) button on the right side of each repository.
     
 
 ## 1. Environment Setup
