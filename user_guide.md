@@ -69,6 +69,15 @@ You will need some software to be able to run this code. Advanced users may view
 - As such, it focuses heavily on developing intuition rather than explaining full technical details or rationals. Further, it leaves out a lot of what normally would be covered in an intro to programming or intro to python course. 
 
 ### Lab 1: Data munging
+#### Data reminder
+- For this lab to work, you'll need to follow the instructions above for "getting the code and data."
+
+#### As a prerequisite for other labs
+- If you are only running this lab in order to get the clean profiles data for one of the other labs:
+    - You can click `cell` -> `Run All` at the top of the notebook.
+    - Be sure to scroll through the whole notebook to make sure that it finishes running all the way to the bottom without errors. If there are errors or the notebook does not finish, you will not be able to do the next labs. 
+    - The most common errors, and how to fix them, are explained in the notebook.
+
 
 ### Lab 2: Word frequencies
 #### Initial Setup
