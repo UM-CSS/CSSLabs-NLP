@@ -49,8 +49,13 @@ You will need some software to be able to run this code. Advanced users may view
 
 
 ## 2. Using Lab Exercises
+**Note** Labs 2 and 3 require you to first run the code in Lab 1. You may simply run the code in Lab 1 without looking at it and skip to labs 2 or 3 if you like. (Be sure to check for errors when you run Lab 1: if there is something wrong with your setup, it will show up here. Lab 1 has detailed instructions for common errors.)
 
 ### Short Summaries of each Lab
+- Lab 0 introduces both the python programming language and how computers think about text. It assumes no prior knowledge of programming, and does not require outside data. It is not a comprehensive course in either programming or text processing, but rather a quick, gentile start designed to help new users up and running with the basics.
+- Lab 1 walks students through cleaning the OKC profile data. Data are often messy when researchers first get them; indeed munging is usually the largest component of any data science project.
+- Lab 2 gets students thinking about text as data. By the end, students compare word frequencies across different social groups to see what aspects of their language use are distinctive.
+- Lab 3 introduces students to topic modeling. They construct topic models, interpret the topics, evaluate their quality, and explore the relative popularity of topics across social groups.
 
 ### Lab 0: Intro to python & text
 
