@@ -91,6 +91,14 @@ You will need some software to be able to run this code. Advanced users may view
     - Do words like `transgender` appear in the profile text? (yes)
         - What sex do those individuals pick, and how does it relate to what they write in their profiles? (it depends)
 
+#### "4. Your turn to try it with another trait"
+- Suggestions of traits that work out well:
+    - Age_group
+    - Education
+    - Orientation (sexuality)
+    - Sex
+- Other notable things
+    - In the race/ethnicity variable, there really aren't strong differences between groups. This could be the starting point for an interesting discussion, especially since research shows strong racial discrimination and assortativiy in online dating.
 
 
 ### Lab 3: Topic Modeling
