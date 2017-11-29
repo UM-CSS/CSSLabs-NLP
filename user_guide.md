@@ -36,12 +36,16 @@ You will need some software to be able to run this code. Advanced users may view
         - Alternatively, you can often search for `jupyter notebook` and launch that directly 
     - When jupyter launches, two things will happen:
         1. A terminal / command prompt will open. Do not close this: jupyter is running your code here. You can safely ignore it.
-        2. A new tab or window should open in your browser with something like this: ![notebook home](images/notebook_home.png "notebook home"). If you see this, congradulations: you have successfully installed everything you need. If not, there is something wrong with your installation.
-    - In the jupyter notebook tab, you should see a list of files and folders on your computer. 
-    - Navigate through these folders to the `CSSLabs-NLP` folder.
-        - **Note** if you do not see this folder, it may be that you saved it somewhere jupyter cannot get to. The easiest solution is co move it to somewhere jupyter can see, such as "my documents." 
-    - In this folder is a list of labs, each ending in `.ipynb`. Click any of these and they should open in a new tab with the lab code and instructions.
-        - **Note** if you get an error or the top of the new page does not look like this ![notebook top](images/notebook_top.png "notebook top"), then you have probably made a mistake in downloading the files. Go back to the "clone or download" instructions above. 
+        2. A new tab or window should open in your browser with something like this: 
+            - ![notebook home](images/notebook_home.png "notebook home") 
+            - If you see this, congradulations: you have successfully installed everything you need. If not, there is something wrong with your installation.
+4. In the jupyter notebook tab, you should see a list of files and folders on your computer. Navigate through these folders to the `CSSLabs-NLP` folder.
+    - **Note** if you do not see this folder, it may be that you saved it somewhere jupyter cannot get to. The easiest solution is co move it to somewhere jupyter can see, such as "my documents." 
+5. In this folder is a list of labs, each ending in `.ipynb`. Click any of these and they should open in a new tab with the lab code and instructions.
+    - **Note** if you get an error or the top of the new page does not look like this 
+        - ![notebook top](images/notebook_top.png "notebook top"), 
+        - Then you have probably made a mistake in downloading the files. Go back to the "clone or download" instructions above. 
+6. If you are new to Jupyter Notebooks, everything you need for these labs is in the great [introduction to their basic use](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb).
 
 
 ## 2. Using Lab Exercises
