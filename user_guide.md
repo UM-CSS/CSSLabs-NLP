@@ -107,6 +107,37 @@ You will need some software to be able to run this code. Advanced users may view
 
 
 ### Lab 3: Topic Modeling
+#### Initial Setup
+- This lab uses the `clean_profiles.tsv` file produced by `Lab 1`. You will need to run that code first, or get a copy of the file it creates from someone who has. 
+    - If you get an error that says something like `FileNotFoundError: File b'data/clean_profiles.tsv' does not exist` at the bottom, if means that you need to run the code in Lab 1. If you already ran this code and still get this error, then check for error messages in Lab 1. 
 
+#### Choosing a profile section
+- OKC has 10 open ended text boxes in their user profiles. Students should pick one to analyze the text in. Alternatively, they may choose to analyze the combined text from all of the boxes. 
+- Recommended:
+    - `text`: looking at all of the profile text tends to produce interesting topics. Often, one can tell which part of the profile a topic comes from (e.g. favorite books and movies). 
+    - `essay0`: the "About me" section of profiles also tends to produce interesting topics. 
+    - `essay8`: the "most private thing I'm willing to admit" section of the profile often excites students, although the quality of topic models for this section is not as good. 
+    
+#### Helper functions
+- This lab, like the others, has code labeled "helper functions." 
+- This code is not explained in the notebook because it is not a central part of the lesson.
+- Students should run these code cells and scroll past them without worrying about how they work. 
 
+#### Interpreting topics
+- Students will need to do some thinking to interpret the output of the topic models. 
+    - The notebook contains guidance for this.
+    - Ultimately, however, students should probably write out their thoughts on paper or in a separate word document. 
+    - Students will need to refer to these topics throughout the rest of the lab, so having their interpretations of them handy is essential. 
 
+#### Picking examples
+- In many parts of the code, it does things like get examples of topic number 4 or look at the topic distribution for user number 3452. 
+- The topics LDA produces aren't deterministic, however, and they will also vary depending on which profile text students choose to use. 
+- Thus, we cannot pick good examples of topic number or profile number in advance for the notebook. 
+- Students should pick topic and profile numbers that they are interested in, and substitute these into the code wherever they see specific topics or profiles listed. 
+
+#### "Who is a topic most popular with?"
+- Suggestions of traits that work out well:
+    - Age_group
+    - Education
+    - Orientation (sexuality)
+    - Sex
