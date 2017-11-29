@@ -46,6 +46,11 @@ You will need some software to be able to run this code. Advanced users may view
         - ![notebook top](images/notebook_top.png "notebook top"), 
         - Then you have probably made a mistake in downloading the files. Go back to the "clone or download" instructions above. 
 6. If you are new to Jupyter Notebooks, everything you need for these labs is in the great [introduction to their basic use](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb).
+7. **Optional notebook extentions**: The labs were designed to work with the `collapsable headings` extention. They work fine without it, but look a little nicer if you have it installed. Full installation instructions are [at the bottom of this page](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). Here's the short version:
+    1. In `anaconda prompt` or your terminal, run this command: `conda install -c conda-forge jupyter_contrib_nbextensions`
+    2. In the same prompt, run `jupyter nbextensions_configurator enable`
+    3. In the same prompt, run `jupyter nbextension enable collapsible_headings/main`
+    2. Restart Jupyter Notebook.
 
 
 ## 2. Using Lab Exercises
