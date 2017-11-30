@@ -1,7 +1,10 @@
 # User Guide for CSS NLP Lab Notebooks
 
 ## Contents
-1. [Getting the Code and Data](#download)
+0. [Getting the Code and Data](#download)
+1. [Enviornment Setup](#setup)
+2. [Using Lab Exercises](use)
+    
 
 ## 0. Getting the Code and Data <a name="download"></a>
 To use these labs, you will need to download the code and the data. These are available for free online in two separate GitHub repositories. You **must** download both repositories.
@@ -29,7 +32,7 @@ These labs use data from Journal of Statistical Education Paper on Using OkCupid
 6. Paste the `profiles.csv` file into the `data` folder. 
     
 
-## 1. Environment Setup
+## 1. Environment Setup <a name="setup"></a>
 You will need some software to be able to run this code. Advanced users may view the required libraries in the [README](README.md) file. For all users, we recommend the following:
 1. Download Anaconda 3.6 version from [this link](https://www.anaconda.com/download/).
     - Anaconda is an "installer" or "package manager" for python. It installs many of the tools, packages, and libraries that are commonly used in python data analysis. It can also be used to install and update additional packages. It is particularly nice because it makes sure that everything works together, which can be hard to do when installing each thing separately. 
@@ -56,7 +59,7 @@ You will need some software to be able to run this code. Advanced users may view
     2. Restart Jupyter Notebook.
 
 
-## 2. Using Lab Exercises
+## 2. Using Lab Exercises <a name="use"></a>
 **Note** Labs 2 and 3 require you to first run the code in Lab 1. You may simply run the code in Lab 1 without looking at it and skip to labs 2 or 3 if you like. (Be sure to check for errors when you run Lab 1: if there is something wrong with your setup, it will show up here. Lab 1 has detailed instructions for common errors.)
 
 ### Short Summaries of each Lab
