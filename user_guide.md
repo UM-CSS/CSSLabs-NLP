@@ -12,7 +12,7 @@
     
 
 ## 0. Getting the Code and Data <a name="download"></a>
-To use these labs, you will need to download the code and the data. These are available for free online in two separate GitHub repositories. You **must** download both repositories.
+To use these labs, you will need to download the code and the data. These are available for free online in two separate GitHub repositories. You **must** download *both* repositories.
 
 #### Repositories
 - **Code** https://github.com/UM-CSS/CSSLabs-NLP
@@ -55,7 +55,7 @@ You will need some software to be able to run this code. Advanced users may view
 5. In this folder is a list of labs, each ending in `.ipynb`. Click any of these and they should open in a new tab with the lab code and instructions.
     - **Note** if you get an error or the top of the new page does not look like this 
         - ![notebook top](images/notebook_top.png "notebook top"), 
-        - Then you have probably made a mistake in downloading the files. Go back to the "clone or download" instructions above. 
+        - Then you have probably made a mistake in downloading the files. Go back to the "[Getting the Code and Data](#download)" instructions. 
 6. If you are new to Jupyter Notebooks, everything you need for these labs is in the great [introduction to their basic use](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb).
 7. **Optional notebook extensions**: The labs were designed to work with the `collapsible headings` extension. They work fine without it, but look a little nicer if you have it installed. Full installation instructions are [at the bottom of this page](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). Here's the short version:
     1. In `anaconda prompt` or your terminal, run this command: `conda install -c conda-forge jupyter_contrib_nbextensions`
