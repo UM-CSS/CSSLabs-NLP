@@ -19,16 +19,14 @@ To use these labs, you will need to download the code and the data. These are av
 - **Data** https://github.com/rudeboybert/JSE_OkCupid
 
 #### Download a repository from GitHub
-- If you are familiar with `git`
-    - We recommend you clone each repo.
-- If you are unfamiliar with `git`
-    - Easiest option:
-        - Press the ![Clone or Download](images/clone_or_download.png "Clone or Download") button on the right side of each repository.
-        - Choose `Download ZIP` and save the file somewhere memorable.
-        - Go to where the file is saved and unzip it.
+- If you are familiar with `git`, we recommend you clone each repo.
+- If you are unfamiliar with `git`, the easiest option is to follow these steps:
+    - Press the ![Clone or download](images/clone_or_download.png "Clone or download") button on the right side of each repository.
+    - Choose `Download ZIP` and save the file somewhere memorable.
+    - Go to where the file is saved and unzip it.
 
 #### Putting the data in its place
-These labs use data from Journal of Statistical Education Paper on Using OkCupid Data for Data Science Courses. We do not want to host or distribute this data, which is why we asked you to get it from the authors' GitHub page above. Now you need to put this data somewhere our code can find it. Steps:
+These labs use data provided by the authors of "[OkCupid Profile Data for Introductory Statistics and Data Science Courses](http://www.amstat.org/publications/jse/v23n2/kim.pdf)" (Journal of Statistics Education 2015, Volume 23, Number 2). In the previous step, you downloaded this data from the authors' GitHub page. Now you need to put this data somewhere our code can find it. Steps:
 1. Open the JSE_OkCupid folder that you downloaded.
 2. Unzip the file `profiles.csv.zip`.
 3. Copy the unzipped file `profiles.csv`.
