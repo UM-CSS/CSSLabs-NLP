@@ -1,6 +1,9 @@
 # User Guide for CSS NLP Lab Notebooks
 
-## 0. Getting the Code and Data
+## Contents
+1. [Getting the Code and Data](#download)
+
+## 0. Getting the Code and Data <a name="download"></a>
 To use these labs, you will need to download the code and the data. These are available for free online in two separate GitHub repositories. You **must** download both repositories.
 
 #### Repositories
