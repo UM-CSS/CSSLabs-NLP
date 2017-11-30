@@ -4,6 +4,11 @@
 0. [Getting the Code and Data](#download)
 1. [Enviornment Setup](#setup)
 2. [Using Lab Exercises](use)
+    - [Short Summaries of each Lab](#summary)
+    - [Lab 0: Intro to python & text](#zero)
+    - [Lab 1: Data munging](#one)
+    - [Lab 2: Word frequencies](#two)
+    - [Lab 3: Topic modeling](#three)
     
 
 ## 0. Getting the Code and Data <a name="download"></a>
@@ -62,19 +67,19 @@ You will need some software to be able to run this code. Advanced users may view
 ## 2. Using Lab Exercises <a name="use"></a>
 **Note** Labs 2 and 3 require you to first run the code in Lab 1. You may simply run the code in Lab 1 without looking at it and skip to labs 2 or 3 if you like. (Be sure to check for errors when you run Lab 1: if there is something wrong with your setup, it will show up here. Lab 1 has detailed instructions for common errors.)
 
-### Short Summaries of each Lab
+### Short Summaries of each Lab <a name="summary"></a>
 - Lab 0 introduces both the python programming language and how computers think about text. It assumes no prior knowledge of programming. It is not a comprehensive course in either programming or text processing, but rather a quick, gentile start designed to help new users up and running with the basics.
 - Lab 1 walks students through cleaning the OKC profile data. Data are often messy when researchers first get them; indeed munging is usually the largest component of any data science project.
 - Lab 2 gets students thinking about text as data. By the end, students compare word frequencies across different social groups to see what aspects of their language use are distinctive.
 - Lab 3 introduces students to topic modeling. They construct topic models, interpret the topics, evaluate their quality, and explore the relative popularity of topics across social groups.
 
-### Lab 0: Intro to python & text
+### Lab 0: Intro to python & text <a name="zero"></a>
 - This lab sets out to teach people who have never seen programming before two things:
     1. Enough python to use and understand the other labs
     2. Enough about how computers understand text to make sense of the other labs
 - As such, it focuses heavily on developing intuition rather than explaining full technical details or rationals. Further, it leaves out a lot of what normally would be covered in an intro to programming or intro to python course. 
 
-### Lab 1: Data munging
+### Lab 1: Data munging <a name="one"></a>
 #### Data reminder
 - For this lab to work, you'll need to follow the instructions above for "getting the code and data."
 
@@ -85,7 +90,7 @@ You will need some software to be able to run this code. Advanced users may view
     - The most common errors, and how to fix them, are explained in the notebook.
 
 
-### Lab 2: Word frequencies
+### Lab 2: Word frequencies <a name="two"></a>
 #### Initial Setup
 - This lab uses the `clean_profiles.tsv` file produced by `Lab 1`. You will need to run that code first, or get a copy of the file it creates from someone who has. 
     - If you get an error that says something like `FileNotFoundError: File b'data/clean_profiles.tsv' does not exist` at the bottom, if means that you need to run the code in Lab 1. If you already ran this code and still get this error, then check for error messages in Lab 1. 
@@ -125,7 +130,7 @@ You will need some software to be able to run this code. Advanced users may view
     - In the race/ethnicity variable, there really aren't strong differences between groups. This could be the starting point for an interesting discussion, especially since research shows strong racial discrimination and assortativiy in online dating.
 
 
-### Lab 3: Topic Modeling
+### Lab 3: Topic modeling <a name="three"></a>
 #### Initial Setup
 - This lab uses the `clean_profiles.tsv` file produced by `Lab 1`. You will need to run that code first, or get a copy of the file it creates from someone who has. 
     - If you get an error that says something like `FileNotFoundError: File b'data/clean_profiles.tsv' does not exist` at the bottom, if means that you need to run the code in Lab 1. If you already ran this code and still get this error, then check for error messages in Lab 1. 
