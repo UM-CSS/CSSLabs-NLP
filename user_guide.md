@@ -24,38 +24,39 @@ To use these labs, you will need to download the code and the data. These are av
     - Press the ![Clone or download](images/clone_or_download.png "Clone or download") button on the right side of each repository.
     - Choose `Download ZIP` and save the file somewhere memorable.
     - Go to where the file is saved and unzip it.
+    - Repeat these steps for both repositories.
 
 #### Putting the data in its place
 These labs use data provided by the authors of "[OkCupid Profile Data for Introductory Statistics and Data Science Courses](http://www.amstat.org/publications/jse/v23n2/kim.pdf)" (Journal of Statistics Education 2015, Volume 23, Number 2). In the previous step, you downloaded this data from the authors' GitHub page. Now you need to put this data somewhere our code can find it. Steps:
-1. Open the JSE_OkCupid folder that you downloaded.
+1. Open the `JSE_OkCupid` folder that you downloaded.
 2. Unzip the file `profiles.csv.zip`.
 3. Copy the unzipped file `profiles.csv`.
-4. Open the folder `CSSLabs-NLP`.
+4. Open the folder `CSSLabs-NLP` that you downloaded.
 5. Within that folder, open the folder `data`.
 6. Paste the `profiles.csv` file into the `data` folder. 
     
 
 ## 1. Environment Setup <a name="setup"></a>
 You will need some software to be able to run this code. Advanced users may view the required libraries in the [README](README.md) file. For all users, we recommend the following:
-1. Download Anaconda 3.6 version from [this link](https://www.anaconda.com/download/).
+1. Download Anaconda version 3.6 from [this link](https://www.anaconda.com/download/).
     - Anaconda is an "installer" or "package manager" for python. It installs many of the tools, packages, and libraries that are commonly used in python data analysis. It can also be used to install and update additional packages. It is particularly nice because it makes sure that everything works together, which can be hard to do when installing each thing separately. 
 2. Install Anaconda on your computer (there are instructions on their website if you have difficulty).
 3. Once Anaconda is installed, you should be able to start the programs it includes just like you would start other programs. Test this now:
     - Search for a program called `anaconda navigator` and launch it. When it opens, you should see the option to launch `jupyter notebook`.
         - Alternatively, you can often search for `jupyter notebook` and launch that directly 
     - When jupyter launches, two things will happen:
-        1. A terminal / command prompt will open. Do not close this: jupyter is running your code here. You can safely ignore it.
-        2. A new tab or window should open in your browser with something like this: 
+        1. A terminal / command prompt will open. Do not close this: jupyter is running your code here. You can, however, safely ignore or minimize this window.
+        2. A new tab or window should open in your browser with something like this in the top left: 
             - ![notebook home](images/notebook_home.png "notebook home") 
             - If you see this, congratulations: you have successfully installed everything you need. If not, there is something wrong with your installation.
 4. In the jupyter notebook tab, you should see a list of files and folders on your computer. Navigate through these folders to the `CSSLabs-NLP` folder.
-    - **Note** if you do not see this folder, it may be that you saved it somewhere jupyter cannot get to. The easiest solution is co move it to somewhere jupyter can see, such as "my documents." 
+    - **Note** if you do not see this folder, it may be that you saved it somewhere jupyter cannot get to. The easiest solution is to move it to somewhere jupyter can see, such as "my documents." 
 5. In this folder is a list of labs, each ending in `.ipynb`. Click any of these and they should open in a new tab with the lab code and instructions.
     - **Note** if you get an error or the top of the new page does not look like this 
         - ![notebook top](images/notebook_top.png "notebook top"), 
         - Then you have probably made a mistake in downloading the files. Go back to the "[Getting the Code and Data](#download)" instructions. 
 6. If you are new to Jupyter Notebooks, everything you need for these labs is in the great [introduction to their basic use](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb).
-7. **Optional notebook extensions**: The labs were designed to work with the `collapsible headings` extension. They work fine without it, but look a little nicer if you have it installed. Full installation instructions are [at the bottom of this page](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). Here's the short version:
+7. **Optional notebook extensions**: The labs were designed to work with the `collapsible headings` extension. They work fine without it, but look a little nicer if you have it installed. Full installation instructions are [at the bottom of this link](https://github.com/ipython-contrib/jupyter_contrib_nbextensions). Here's the short version:
     1. In `anaconda prompt` or your terminal, run this command: `conda install -c conda-forge jupyter_contrib_nbextensions`
     2. In the same prompt, run `jupyter nbextensions_configurator enable`
     3. In the same prompt, run `jupyter nbextension enable collapsible_headings/main`
