@@ -12,29 +12,17 @@
     
 
 ## 0. Getting the Code and Data <a name="download"></a>
-To use these labs, you will need to download the code and the data. These are available for free online in two separate GitHub repositories. You **must** download *both* repositories.
+To use these labs, you will need to download the code and the data. These are available for free online in a GitHub repository.
 
 #### Repositories
 - **Code** https://github.com/UM-CSS/CSSLabs-NLP
-- **Data** https://github.com/rudeboybert/JSE_OkCupid
 
 #### Download a repository from GitHub
-- If you are familiar with `git`, we recommend you clone each repo.
+- If you are familiar with `git`, we recommend you clone the repo.
 - If you are unfamiliar with `git`, the easiest option is to follow these steps:
     - Press the ![Clone or download](images/clone_or_download.png "Clone or download") button on the right side of each repository.
     - Choose `Download ZIP` and save the file somewhere memorable.
     - Go to where the file is saved and unzip it.
-    - Repeat these steps for both repositories.
-
-#### Putting the data in its place
-These labs use data provided by the authors of "[OkCupid Profile Data for Introductory Statistics and Data Science Courses](http://www.amstat.org/publications/jse/v23n2/kim.pdf)" (Journal of Statistics Education 2015, Volume 23, Number 2). In the previous step, you downloaded this data from the authors' GitHub page. Now you need to put this data somewhere our code can find it. Steps:
-1. Open the `JSE_OkCupid` folder that you downloaded.
-2. Unzip the file `profiles.csv.zip`.
-3. Copy the unzipped file `profiles.csv`.
-4. Open the folder `CSSLabs-NLP` that you downloaded.
-5. Within that folder, open the folder `data`.
-6. Paste the `profiles.csv` file into the `data` folder. 
-    
 
 ## 1. Environment Setup <a name="setup"></a>
 You will need some software to be able to run this code. Advanced users may view the required libraries in the [README](README.md) file. For all users, we recommend the following:
@@ -70,7 +58,7 @@ You will need some software to be able to run this code. Advanced users may view
 - Lab 0 introduces both the python programming language and how computers think about text. It assumes no prior knowledge of programming. It is not a comprehensive course in either programming or text processing, but rather a quick, gentile start designed to help new users up and running with the basics.
 - Lab 1 walks students through cleaning the OKC profile data. Data are often messy when researchers first get them; indeed munging is usually the largest component of any data science project.
 - Lab 2 gets students thinking about text as data. By the end, students compare word frequencies across different social groups to see what aspects of their language use are distinctive.
-- Lab 3 introduces students to topic modeling. They construct topic models, interpret the topics, evaluate their quality, and explore the relative popularity of topics across social groups.
+- Lab 3 introduces students to topic modeling. They construct topic models, interpret the topics, evaluate their quality, and explore the relative popularity of topics across social groups. 
 
 ### Lab 0: Intro to python & text <a name="zero"></a>
 - This lab sets out to teach people who have never seen programming before two things:
