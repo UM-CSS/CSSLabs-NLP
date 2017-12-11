@@ -9,15 +9,14 @@
     - [Lab 1: Data munging](#one)
     - [Lab 2: Word frequencies](#two)
     - [Lab 3: Topic modeling](#three)
+3. [Suggested Readings](#readings)
     
 
 ## 0. Getting the Code and Data <a name="download"></a>
-To use these labs, you will need to download the code and the data. These are available for free online in a GitHub repository.
+To use these labs, you will need to download the code and the data. These are available for free online in a GitHub repository. 
 
-#### Repositories
-- **Code** https://github.com/UM-CSS/CSSLabs-NLP
-
-#### Download a repository from GitHub
+#### Instructions
+- Go to this link: https://github.com/UM-CSS/CSSLabs-NLP
 - If you are familiar with `git`, we recommend you clone the repo.
 - If you are unfamiliar with `git`, the easiest option is to follow these steps:
     - Press the ![Clone or download](images/clone_or_download.png "Clone or download") button on the right side of each repository.
@@ -152,3 +151,17 @@ You will need some software to be able to run this code. Advanced users may view
     - Education
     - Orientation (sexuality)
     - Sex
+
+## Suggested Readings <a name="readings"></a>
+
+#### News and popular writing
+- Ng, Fiona. 2016. “Tinder Has an In-House Sociologist and Her Job Is to Figure Out What You Want.” *Los Angeles Magazine*, May 25. Retrieved February 7, 2017 (http://www.lamag.com/longform/tinder-sociologist).
+- Page, Letta and Seyed Ali. 2016. “[Romancing the Data](http://journals.sagepub.com/doi/abs/10.1177/1536504216648161?journalCode=ctxa).” *Contexts* 15(2):68–69.
+- Pepin, Joanna. 2015. “[Online Dating Choices, Constrained](https://contexts.org/articles/online-dating-choices-constrained).” *Contexts* 14(4):7.
+
+#### Academic publications
+- Danescu-Niculescu-Mizil, Cristian, Robert West, Dan Jurafsky, Jure Leskovec, and Christopher Potts. 2013. “[No Country for Old Members: User Lifecycle and Linguistic Change in Online Communities](https://nlp.stanford.edu/pubs/linguistic_change_lifecycle.pdf).” Pp. 307–18 in Proceedings of the 22nd international conference on World Wide Web. ACM.
+- Sumter, Sindy R., Laura Vandenbosch, and Loes Ligtenberg. 2017. “[Love Me Tinder: Untangling Emerging Adults’ Motivations for Using the Dating Application Tinder](http://www.sciencedirect.com/science/article/pii/S0736585316301216).” Telematics and Informatics 34(1):67–78.
+- Mason, Corinne Lysandra. 2016. “[Tinder and Humanitarian Hook-Ups: The Erotics of Social Media Racism](http://www.tandfonline.com/doi/abs/10.1080/14680777.2015.1137339?journalCode=rfms20).” Feminist Media Studies 16(5):822–37.
+- Evans, James A. and Pedro Aceves. 2016. “[Machine Translation: Mining Text for Social Theory](http://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206).” Annual Review of Sociology 42(May):1–30.
+- Bonilla, Tabitha and Justin Grimmer. 2013. “[Elevated Threat Levels and Decreased Expectations: How Democracy Handles Terrorist Threats](https://stanford.edu/~jgrimmer/terror.pdf).” Poetics 41(6):650–69.
