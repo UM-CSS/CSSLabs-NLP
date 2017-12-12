@@ -159,8 +159,8 @@ You will need some software to be able to run this code. Advanced users may view
 - Pepin, Joanna. 2015. “[Online Dating Choices, Constrained](https://contexts.org/articles/online-dating-choices-constrained).” *Contexts* 14(4):7.
 - Page, Letta and Seyed Ali. 2016. “[Romancing the Data](http://journals.sagepub.com/doi/abs/10.1177/1536504216648161?journalCode=ctxa).” *Contexts* 15(2):68–69.
 - Zimmer, Michael. 2016. "[OKCupid Study Reveals the Perils of Big-Data Science](https://www.wired.com/2016/05/okcupid-study-reveals-perils-big-data-science/)." *Wired* May 14.
-- 2009. "[Exactly what to say in a first message](https://theblog.okcupid.com/exactly-what-to-say-in-a-first-message-2bf680806c72)." OKCupid Data Blog, September 13. 
-- 2010. "[The REAL 'stuff white people like'](https://theblog.okcupid.com/the-real-stuff-white-people-like-66b131aa3ac8)." OKCupid Data Blog, September 7. 
+- . 2009. "[Exactly what to say in a first message](https://theblog.okcupid.com/exactly-what-to-say-in-a-first-message-2bf680806c72)." OKCupid Data Blog, September 13. 
+- . 2010. "[The REAL 'stuff white people like'](https://theblog.okcupid.com/the-real-stuff-white-people-like-66b131aa3ac8)." OKCupid Data Blog, September 7. 
 
 #### Academic publications
 - Danescu-Niculescu-Mizil, Cristian, Robert West, Dan Jurafsky, Jure Leskovec, and Christopher Potts. 2013. “[No Country for Old Members: User Lifecycle and Linguistic Change in Online Communities](https://nlp.stanford.edu/pubs/linguistic_change_lifecycle.pdf).” Pp. 307–18 in *Proceedings of the 22nd international conference on World Wide Web*. ACM.
