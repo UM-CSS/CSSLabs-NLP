@@ -154,14 +154,17 @@ You will need some software to be able to run this code. Advanced users may view
 
 ## Suggested Readings <a name="readings"></a>
 
-#### News and popular writing
-- Ng, Fiona. 2016. “Tinder Has an In-House Sociologist and Her Job Is to Figure Out What You Want.” *Los Angeles Magazine*, May 25. Retrieved February 7, 2017 (http://www.lamag.com/longform/tinder-sociologist).
-- Page, Letta and Seyed Ali. 2016. “[Romancing the Data](http://journals.sagepub.com/doi/abs/10.1177/1536504216648161?journalCode=ctxa).” *Contexts* 15(2):68–69.
+#### Popular and short writing
+- Ng, Fiona. 2016. “[Tinder Has an In-House Sociologist and Her Job Is to Figure Out What You Want](http://www.lamag.com/longform/tinder-sociologist).” *Los Angeles Magazine*, May 25. 
 - Pepin, Joanna. 2015. “[Online Dating Choices, Constrained](https://contexts.org/articles/online-dating-choices-constrained).” *Contexts* 14(4):7.
+- Page, Letta and Seyed Ali. 2016. “[Romancing the Data](http://journals.sagepub.com/doi/abs/10.1177/1536504216648161?journalCode=ctxa).” *Contexts* 15(2):68–69.
+- Zimmer, Michael. 2016. "[OKCupid Study Reveals the Perils of Big-Data Science](https://www.wired.com/2016/05/okcupid-study-reveals-perils-big-data-science/)." *Wired* May 14.
+- 2009. "[Exactly what to say in a first message](https://theblog.okcupid.com/exactly-what-to-say-in-a-first-message-2bf680806c72)." OKCupid Data Blog, September 13. 
+- 2010. "[The REAL 'stuff white people like'](https://theblog.okcupid.com/the-real-stuff-white-people-like-66b131aa3ac8)." OKCupid Data Blog, September 7. 
 
 #### Academic publications
-- Danescu-Niculescu-Mizil, Cristian, Robert West, Dan Jurafsky, Jure Leskovec, and Christopher Potts. 2013. “[No Country for Old Members: User Lifecycle and Linguistic Change in Online Communities](https://nlp.stanford.edu/pubs/linguistic_change_lifecycle.pdf).” Pp. 307–18 in Proceedings of the 22nd international conference on World Wide Web. ACM.
-- Sumter, Sindy R., Laura Vandenbosch, and Loes Ligtenberg. 2017. “[Love Me Tinder: Untangling Emerging Adults’ Motivations for Using the Dating Application Tinder](http://www.sciencedirect.com/science/article/pii/S0736585316301216).” Telematics and Informatics 34(1):67–78.
-- Mason, Corinne Lysandra. 2016. “[Tinder and Humanitarian Hook-Ups: The Erotics of Social Media Racism](http://www.tandfonline.com/doi/abs/10.1080/14680777.2015.1137339?journalCode=rfms20).” Feminist Media Studies 16(5):822–37.
-- Evans, James A. and Pedro Aceves. 2016. “[Machine Translation: Mining Text for Social Theory](http://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206).” Annual Review of Sociology 42(May):1–30.
-- Bonilla, Tabitha and Justin Grimmer. 2013. “[Elevated Threat Levels and Decreased Expectations: How Democracy Handles Terrorist Threats](https://stanford.edu/~jgrimmer/terror.pdf).” Poetics 41(6):650–69.
+- Danescu-Niculescu-Mizil, Cristian, Robert West, Dan Jurafsky, Jure Leskovec, and Christopher Potts. 2013. “[No Country for Old Members: User Lifecycle and Linguistic Change in Online Communities](https://nlp.stanford.edu/pubs/linguistic_change_lifecycle.pdf).” Pp. 307–18 in *Proceedings of the 22nd international conference on World Wide Web*. ACM.
+- Sumter, Sindy R., Laura Vandenbosch, and Loes Ligtenberg. 2017. “[Love Me Tinder: Untangling Emerging Adults’ Motivations for Using the Dating Application Tinder](http://www.sciencedirect.com/science/article/pii/S0736585316301216).” *Telematics and Informatics* 34(1):67–78.
+- Mason, Corinne Lysandra. 2016. “[Tinder and Humanitarian Hook-Ups: The Erotics of Social Media Racism](http://www.tandfonline.com/doi/abs/10.1080/14680777.2015.1137339?journalCode=rfms20).” *Feminist Media Studies* 16(5):822–37.
+- Evans, James A. and Pedro Aceves. 2016. “[Machine Translation: Mining Text for Social Theory](http://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206).” *Annual Review of Sociology* 42(May):1–30.
+- Bonilla, Tabitha and Justin Grimmer. 2013. “[Elevated Threat Levels and Decreased Expectations: How Democracy Handles Terrorist Threats](https://stanford.edu/~jgrimmer/terror.pdf).” *Poetics* 41(6):650–69.
