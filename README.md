@@ -10,7 +10,7 @@
     - [Lab 2: Word frequencies](#two)
     - [Lab 3: Topic modeling](#three)
 3. [Suggested Readings](#readings)
-    
+4. [License](#license)    
 
 ## 0. Getting the Code and Data <a name="download"></a>
 To use these labs, you will need to download the code and the data. These are available for free online in a GitHub repository. 
@@ -168,3 +168,8 @@ You will need some software to be able to run this code. Advanced users may view
 - Mason, Corinne Lysandra. 2016. “[Tinder and Humanitarian Hook-Ups: The Erotics of Social Media Racism](http://www.tandfonline.com/doi/abs/10.1080/14680777.2015.1137339?journalCode=rfms20).” *Feminist Media Studies* 16(5):822–37.
 - Evans, James A. and Pedro Aceves. 2016. “[Machine Translation: Mining Text for Social Theory](http://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206).” *Annual Review of Sociology* 42(May):1–30.
 - Bonilla, Tabitha and Justin Grimmer. 2013. “[Elevated Threat Levels and Decreased Expectations: How Democracy Handles Terrorist Threats](https://stanford.edu/~jgrimmer/terror.pdf).” *Poetics* 41(6):650–69.
+
+
+## License <a name="license"></a> 
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)  
+This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
