@@ -16,4 +16,5 @@ dependencies:
   - bs4
   - scipy
   - scikit-learn
+  - lxml
 #  - warnings
