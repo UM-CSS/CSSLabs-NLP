@@ -1,18 +1,19 @@
 name: nlp-environment
 channels:
   - conda-forge
+  - default
 dependencies:
   - pandas
-  - urllib
-  - os
+  - urllib3
+#  - os
   - numpy
-  - re
+#  - re
   - matplotlib
-  - collections
-  - itertools
+#  - collections
+#  - itertools
   - tqdm
   - nltk
   - bs4
   - scipy
-  - sklearn
-  - warnings
+  - scikit-learn
+#  - warnings
