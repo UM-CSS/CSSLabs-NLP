@@ -1,0 +1,18 @@
+name: example-environment
+channels:
+  - default
+dependencies:
+  - pandas
+  - urllib
+  - os
+  - numpy
+  - re
+  - matplotlib
+  - collections
+  - itertools
+  - tqdm
+  - nltk
+  - bs4
+  - scipy
+  - sklearn
+  - warnings
