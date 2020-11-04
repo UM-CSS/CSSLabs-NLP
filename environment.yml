@@ -1,6 +1,6 @@
-name: example-environment
+name: nlp-environment
 channels:
-  - default
+  - conda-forge
 dependencies:
   - pandas
   - urllib
