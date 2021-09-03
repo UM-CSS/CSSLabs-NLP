@@ -160,6 +160,6 @@ elif os.path.isfile("data/profiles.csv.zip"):
     clean()
 else:
     # if we have either data nor output, fetch data and clean it
-    URL = "https://github.com/rudeboybert/JSE_OkCupid/raw/master/profiles.csv.zip"
+    URL = "https://www.dropbox.com/s/duig645p0gelu5o/profiles.csv.zip?dl=1"
     urllib.request.urlretrieve(url=URL, filename="data/profiles.csv.zip")
     clean()
