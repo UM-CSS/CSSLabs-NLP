@@ -43,7 +43,7 @@ You will need some software to be able to run this code. Advanced users may view
         ```bash
         docker run -v ${PWD}:/home/jovyan/CSSLabs-NLP -p 8888:8888 quay.io/jupyter/scipy-notebook:2024-01-05
         ```
-  
+
     - The above step will first pulling the docker container from the remote repository.  You should see a list of layers of this container being pulled off the remote repo. Notice, the image pulling steps only happens when this is done for the first time.  Once the pulling is completed, it will run the container on your local operating system, and expose a port 8888 on your local host, with a token, i.e. ```b045...61e4``` in the following case.  
 
     ```
