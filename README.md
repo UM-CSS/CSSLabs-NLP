@@ -27,10 +27,23 @@ To use these labs, you will need to download the code and the data. These are av
 You will need some software to be able to run this code. Advanced users may view the required libraries in the [README](README.md) file. For all users, we recommend the following:
 1. Install [Docker Desktop](https://docs.docker.com/desktop/) on the laptop or desktop computer.  Here are direct links for various operating systems: [Mac OS](https://docs.docker.com/desktop/install/mac-install/), [Windows](https://docs.docker.com/desktop/install/windows-install/), [Linux](https://docs.docker.com/desktop/install/linux-install/). 
 2. We are using [Jupyter notebook on Docker Stack](https://jupyter-docker-stacks.readthedocs.io/en/latest/) to avoid steps to install various components. With the Docker Desktop installed in above step, now we can load a docker container directly by:
-    - open a terminal on Mac OS, or the Commandline Prompt on Windows, and go to the folder where you have downloaded the notebook in step 0 above and run:
-    ```
-    CSSLabs-NLP % docker run -v $(pwd):/home/jovyan/CSSLabs-NLP -p 8888:8888 quay.io/jupyter/scipy-notebook:2024-01-05
-    ```
+    - Open a terminal on Mac OS or the Commandline Prompt on Windows, and navigate to the folder where you downloaded the notebook in step 0 above.
+
+        - If you are a Mac user, run the following command:
+        ```bash
+        docker run -v $(pwd):/home/jovyan/CSSLabs-NLP -p 8888:8888 quay.io/jupyter/scipy-notebook:2024-01-05
+        ```
+
+        - If you are a Windows Command shell user, use this command:
+        ```bash
+        docker run -v %cd%:/home/jovyan/CSSLabs-NLP -p 8888:8888 quay.io/jupyter/scipy-notebook:2024-01-05
+        ```
+
+        - If you are a Windows PowerShell user, use the following command:
+        ```bash
+        docker run -v ${PWD}:/home/jovyan/CSSLabs-NLP -p 8888:8888 quay.io/jupyter/scipy-notebook:2024-01-05
+        ```
+           
     - The above step will first pulling the docker container from the remote repository.  You should see a list of layers of this container being pulled off the remote repo. Notice, the image pulling steps only happens when this is done for the first time.  Once the pulling is completed, it will run the container on your local operating system, and expose a port 8888 on your local host, with a token, i.e. ```b045...61e4``` in the following case.  
 
     ```
